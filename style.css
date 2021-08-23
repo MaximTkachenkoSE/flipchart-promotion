@@ -1,0 +1,91 @@
+h1 {
+    font-family: Georgia, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: slateblue;
+}
+
+h2 {
+    font-family: Calibri, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Calibri, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 50px;
+    border: #4CAF50;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: forestgreen; /* Green */
+    color: white;
+}
+
+.img {
+    width: 640px;   
+    height: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid black;    
+}
+
+ul {
+    list-style-type: none;
+    font-family: Calibri, sans-serif;
+    font-size: 25px;
+}
+
+#item1::before {
+    content: "";
+    background-image: url("./smallinterface.png");
+    background-size: 80px 80px;
+    display: inline-block;
+    width: 80px; 
+    height: 80px;
+}
+
+#item2::before {
+    content: "";
+    background-image: url("./synchronization.png");
+    background-size: 55px 55px;
+    display: inline-block;
+    width: 55px; 
+    height: 55px;
+
+}
+
+#item3::before {
+    content: "";
+    background-image: url("./nodes.png");
+    background-size: 70px 70px;
+    display: inline-block;
+    width: 70px; 
+    height: 70px;
+} 
+
+h4 {
+    font-family: Calibri, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
