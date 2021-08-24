@@ -11,12 +11,6 @@ h2 {
     text-align: center;
 }
 
-h3 {
-    font-family: Calibri, sans-serif;
-    font-size: 25px;
-    text-align: center;
-}
-
 a {
     text-decoration: none;
 }
@@ -47,13 +41,13 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid black;    
+    outline: 2px solid black;
 }
 
-ul {
-    list-style-type: none;
+h3 {
     font-family: Calibri, sans-serif;
     font-size: 25px;
+    text-align: center;
 }
 
 #item1::before {
@@ -63,6 +57,7 @@ ul {
     display: inline-block;
     width: 80px; 
     height: 80px;
+    transform: translateY(40%);
 }
 
 #item2::before {
@@ -72,7 +67,7 @@ ul {
     display: inline-block;
     width: 55px; 
     height: 55px;
-
+    transform: translateY(40%);
 }
 
 #item3::before {
@@ -82,6 +77,7 @@ ul {
     display: inline-block;
     width: 70px; 
     height: 70px;
+    transform: translateY(40%);
 } 
 
 h4 {
