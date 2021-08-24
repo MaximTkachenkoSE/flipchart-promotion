@@ -35,12 +35,19 @@ a {
     color: white;
 }
 
+
 .img {
     width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     outline: 2px solid black;
+}
+
+@media only screen and (max-width: 1080px) {
+  img {
+    width: 100%;
+  }
 }
 
 h3 {
@@ -76,7 +83,7 @@ h3 {
     display: inline-block;
     width: 70px; 
     height: 70px;
-    transform: translateY(35%);
+    transform: translateY(30%);
 } 
 
 h4 {
